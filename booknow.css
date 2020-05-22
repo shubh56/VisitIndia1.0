@@ -1,0 +1,40 @@
+	body
+	{
+		background-color: rgb(0,110,150);
+	}
+	#maharashtra
+	{
+		padding: none
+		margin : none;
+	}
+	.table1
+	{
+		background-color: lightblue;
+
+	}
+	td
+	{
+		font-family: sans-serif;
+	}
+	href
+	{
+		text-decoration: none;
+	}
+	input[type="submit"]
+	{
+		width: 100%;
+		background-color: navy;
+		color: white;
+	}
+	.table2
+	{
+		background-color: lightblue;
+	}
+	.table3
+	{
+		background-color: lightblue;
+	}
+	.table4
+	{
+		background-color: lightblue;
+	}
