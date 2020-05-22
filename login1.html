@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		
+	</script>	
+</head>
+<style>
+	.login-line
+	{
+		position: absolute;
+		color: #d4f3ef;
+		top: 30%;
+		left: 25%;
+		border-bottom: solid 2px #8ccbbe; 
+		font-size: 60px;
+		font: 60px "Calibri", sans-serif;
+	}
+	.lehvid
+	{
+		width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+	h5
+	{
+		position: absolute;
+		top: 80%;
+		left: 82%;
+		color: snow;
+
+	}	
+	.form
+	{
+		border: 1px solid;
+		margin-top: 30px;
+		margin-left: 450px;
+		margin-right: 450px;
+		padding-top: 100px;
+		padding-right: 40px;
+		padding-left: 35px;
+		padding-bottom: 100px;
+	}
+	.form .Log
+	{
+		position: absolute;
+		top: 600px;
+		left: 535px;
+		font: 20px "Arial black" , sans-serif;
+	}
+	.form .logbtn
+	{
+		text-decoration: none;
+		border-radius: 12px;
+		background-image: linear-gradient(to right, maroon, blue);
+		padding: 5px;
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	.logbtn a
+	{
+		text-decoration: none;
+		color: white;  
+	}
+	.form label
+	{
+		font: italic 20px "Comic Sans MS" , serif;
+	}
+	.form input
+	{
+		border: none;
+		text-decoration: none;
+		border-bottom: 1px solid gray;
+	}
+	.newbtn
+	{
+		background-image: linear-gradient(to right, maroon, blue);
+		padding-left: 40px;
+		padding-right: 40px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		border-radius: 12px;
+	}
+	.newbtn a
+	{
+		text-decoration: none;
+		color: white;  
+	}
+</style>
+<body>
+		<video autoplay muted loop class="lehvid"> 
+			<source src="ladakh.mp4" type="video/mp4">
+		</video>
+		<h1 class="login-line">
+			Login For Registered User
+		</h1><br>
+		<h5>-Leh Ladakh</h5>	
+		<div class="form" align="center">
+			<p class="Log"><strong>LOG IN</strong></p>
+			<label for="username">Username:</label>
+			<input type="text" name="username" placeholder="Enter your username" required>
+			<br>
+			<br>
+			<label for="email">Email:</label>
+			<input type="email" name="email" placeholder="Enter your registered email" required>
+			<br>
+			<br>
+			<label for="pass">Password:</label>
+			<input type="password" name="pass" placeholder="Enter your Password" required>
+			<br>
+			<br>
+			<button class="logbtn" name="submit"><a href="packages.html">Log In</a></button>
+			<br>
+			<button class="newbtn" name="newuser"><a href="newuser.html">New User</a>
+		</div>
+</body>
+</html>

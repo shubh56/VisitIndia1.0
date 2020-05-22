@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Astonishing Assam</title>
+	<style type="text/css">
+		.backimg
+		{
+			position: absolute;
+			width: 80%;
+			height: 85%;
+			left: 10%;	
+		}
+		h1
+		{
+			position: absolute;
+			top: 29%;
+			left: 33%;
+			color: #d4f3ef;
+			font: 60px "Calibri", sans-serif;
+			border-bottom: solid 2px #8ccbbe; 
+		}
+		.booknow
+		{
+			position: absolute;
+			border: 1px solid black;
+			top: 90%;
+			left: 35%;
+			padding-left:100px;
+			padding-right: 100px;
+			padding-top: 20px;
+			padding-bottom: 70px;
+		}
+		.bookingline 
+		{
+			font:  40px "Candara" , sans-serif;;	
+		}
+		input
+		{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			padding-left: 30px;
+			padding-right: 30px;
+			position: absolute;
+			left: 80px;
+			top: 65%;
+			background-image: linear-gradient(to right , #eb3349 , #f45c43);
+			color: white;
+			font-size: 20px;
+		}
+	</style>
+	
+</head>
+<body>
+	<script>
+		function add()
+		{
+			var adult=parseInt(prompt("Enter number of adults travelling"));
+			var child=parseInt(prompt("Enter number of child(ren) travelling"));
+			var tadult=adult*100000;
+			var tchild=child*50000;
+			var total=tadult+tchild;
+			document.write("Total amount to be paid:"+total);	
+		}
+		
+	</script>
+	<img class="backimg" src="as.png" alt="maharshtra">
+	<h1>Astonishing Assam</h1>
+	<div class="booknow">
+		<p class="bookingline"><strong>Book Now</strong></p>
+		<form method="post" onsubmit="add()">	
+			<input type="submit" name="submit" value="Click here to book">			
+		</form>
+	</div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>New User</title>
+<style type="text/css">
+	.kanyavid
+	{
+		background-color: black;
+		border: 1px solid black;
+		width: 80%;
+		position: absolute;
+		left: 11%;
+	}
+	 h1
+	{
+		color: #d4f3ef;
+		position: absolute;
+		left: 32%;
+		top: 30%;
+		border-bottom: solid 2px #8ccbbe; 
+		font-size: 60px;
+		font: 60px "Calibri", sans-serif;
+	}
+	h6
+	{
+		position: absolute;
+		color: #d4f3ef;
+		left: 80%;
+		top: 70%;
+	}
+	.form1
+	{
+		position: absolute;
+		top: 90%;
+		left: 40%;
+		border: 1px solid black;
+		padding: 20px;
+	}
+	input
+	{
+		margin-left: 20px;
+	}
+	p
+	{
+		font: 40px "Candara" , sans-serif;
+	
+	}
+	label
+	{
+		display: inline-block;
+		width: 120px;
+	}
+	textarea
+	{
+		width: 270px;
+		height: 100px;
+		
+	}
+	.submit
+	{
+		color: black;
+		background-image: linear-gradient(to right, white, gray);
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 30px;
+		padding-right: 30px;
+		border-radius: 12px;
+		text-decoration: underline;
+		font: bold 20px "Cambodia" , serif;
+	}
+	input[type="submit"]:hover
+	{
+		background-image: linear-gradient( to left, white , gray);
+		cursor: pointer;
+	}
+	input
+	{
+		border: none;
+		border-bottom: 1px groove black;
+	}
+	</style>
+</head>
+<body>
+	<video autoplay muted loop class="kanyavid">
+		<source src="kanyakumari.mp4" type="video/mp4">
+	</video>
+	<h1>Sign Up for New User</h1>
+	<h6>-Kanyakumari</h6>
+	<div class="form1" align="center">
+		<p><strong>Sign Up</strong></p>
+		<form action="packages.html" method="post">
+			<label for="name">First Name:</label>
+			<input type="text" name="fname"  required><br><br>
+			<label for="lname">Last Name:</label>
+			<input type="text" name="lname"  required><br><br>
+			<label for="emaild">Email:</label>
+			<input type="email"  class="em" name="email" required><br><br> 
+			<label for="password">Password:</label>
+			<input type="password" name="pass" required><br><br>
+			<label for="cnumber">Contact Number:</label>
+			<input type="text" name="number" required><br><br>
+			<label for="address" class="add">Address:</label><br><br>
+			<textarea></textarea><br><br>
+			<input class="submit" type="submit" name="Sign Up" value="Sign Up">
+		</form>	
+	</div>
+</body>
+</html>
